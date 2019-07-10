@@ -1,6 +1,6 @@
 module Findable
   def find_by_name(name)
-    Self.class.detect{|a| a.name == name}
+    self.class.detect{|a| a.name == name}
     # @@artists.detect{|a| a.name == name}
   end
 end
